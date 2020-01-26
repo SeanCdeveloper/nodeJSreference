@@ -45,8 +45,9 @@ function MiniBank(balance) {
   };
 }
 
-
+// creating a miniBank Object, using "miniBank Function":
 var bank = new MiniBank(0);
+
 bank.printBalance();
 
 bank.deposit(85);
@@ -56,8 +57,6 @@ bank.withdraw(20);
 bank.printBalance();
 
 bank.printStatement();
-
-
 
 /*
 # MiniBank
@@ -70,19 +69,21 @@ Update the `MiniBank` function to achieve the following:
 
 1. Add another value of `statement` that should be set to an array with the inital balance as its first item. This array will contain all transactions made with the MiniBank objects.
 
-2. Add a `setBalance` function that takes a value and updates the value `balance` value to it.
+2. Add a `getBalance` function that returns the current balance.
 
-3. Write an `updateStatement` function that takes in a number and pushes it to the `statement` array.
+3. Add a `setBalance` function that takes a value and updates the value `balance` value to it.
 
-4. Write a `getStatement` function that returns the `statement` array.
+4. Write an `updateStatement` function that takes in a number and pushes it to the `statement` array.
 
-5. Write a `printStatement` function that prints each element in the in the `statement` array on its own line.
+5. Write a `getStatement` function that returns the `statement` array.
 
-6. Write a `deposit` function that takes a value and updates the `balance` value using the `setBalance` function.
+6. Write a `printStatement` function that prints each element in the in the `statement` array on its own line.
 
-7. Write a `withdraw` function that takes a value and subtracts it from the `balance`.
+7. Write a `deposit` function that takes a value and updates the `balance` value using the `setBalance` function.
 
-8. Return the `printBalance`, `printStatement`, `deposit`, `withdraw` functions from the `MiniBank` function.
+8. Write a `withdraw` function that takes a value and subtracts it from the `balance`.
+
+9. Return the `printBalance`, `printStatement`, `deposit`, `withdraw` functions from the `MiniBank` function.
 
 * Then, create a new `minibank` object using the `MiniBank` function.
 
@@ -101,4 +102,13 @@ Update the `MiniBank` function to achieve the following:
 
 * Add code to return a copy of the `statement` when `getStatement` is called, rather than returning the original array.
 
+
+Stuff given to constructor Function 
+
+ this.getBalance() = function () {
+        return this.balance;
+    },
+   this.printBalance = function () {
+        console.log(`Balance: ${this.getBalance()}`);
+    };
 */
