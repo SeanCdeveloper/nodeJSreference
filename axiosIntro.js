@@ -21,3 +21,11 @@ inquirer
       });
     });
   });
+
+  // You have to add .axios + inquirer for this to work. 
+
+  /* 
+
+  Type: "npm init", "npm install inquirer --save", "npm install axios --save".
+
+  */

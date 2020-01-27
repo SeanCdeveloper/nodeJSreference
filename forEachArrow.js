@@ -10,7 +10,6 @@
 //   ];
   
 
-  
 //   // forEach is a functional way of iterating through an array without a for-loop
   
 //   moviePatrons.forEach(patron => console.log(patron.age));
@@ -19,9 +18,11 @@
 
 // 2. Using forEach (with parameter in parentheses) + .map simultaneously to modify Array of numbers
 
+/*
 myArray = [2, 4, 6, 8];
 console.log(myArray);
 
 myArray.forEach((num) => console.log(num));
 
 myArray.map((x) => console.log(x * 2));
+*/ 
