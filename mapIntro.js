@@ -1,3 +1,5 @@
+/* map() lets you loop over an Array and modify the Elements inside. */
+
 var map = (arr, cb) => {
     var result = [];
     for (var index = 0; index < arr.length; index++) {
