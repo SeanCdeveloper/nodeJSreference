@@ -28,7 +28,7 @@ class Rectangle extends Shape {
     const perimeter = sideA * 2 + sideB * 2;
 
     //super() Function takes everything from previous class and adds it.  
-  // Rectangle has a sideA + sideB.    
+  // Rectangle has a sideA + sideB but not "class Shape".    
     super(area, perimeter);
     this.sideA = sideA;
     this.sideB = sideB;
