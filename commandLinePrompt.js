@@ -18,7 +18,7 @@ inquirer
       name: "confirm"
     }
   ])
-  .then(function(response) {
+  .then((response) => {
     console.log(response);
     console.log(response.password);
     console.log(response.name);

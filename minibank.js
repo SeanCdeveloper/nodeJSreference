@@ -67,7 +67,8 @@ In this activity you will use objects to create a mini banking application.
 
 Update the `MiniBank` function to achieve the following:
 
-1. Add another value of `statement` that should be set to an array with the inital balance as its first item. This array will contain all transactions made with the MiniBank objects.
+1. Add another value of `statement` that should be set to an array with the inital balance as its first item. 
+This array will contain all transactions made with the MiniBank objects.
 
 2. Add a `getBalance` function that returns the current balance.
 
